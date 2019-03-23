@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/blog_responsive.css">
+
+</head>
+<body>
+
+<!--顶部导航栏-->
+<nav class="container-fluid navbar navbar-default hidden-xs" role="navigation">
+    <div class="container header hidden-xs">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">BLOG</a>
+        </div>
+        <ul class="nav navbar-nav navbar-left">
+            <li ><a href="#">首页</a></li>
+            <li ><a href="#">发现</a></li>
+            <li ><a href="#">动态</a></li>
+            <li ><a href="#">问答</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">写文章</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">登录</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+<!--响应式头部-->
+<div class="container header-responsive visible-xs clearfix">
+    <div class="left pull-left">
+        <a class="logo" href="#">BLOG</a>
+        <li ><a href="#">发现</a></li>
+    </div>
+
+    <ul class="right pull-right">
+        <li><a href="#">注册</a></li>
+        <li><a href="#">登录</a></li>
+    </ul>
+</div>
+
+
+<!--主体内容-->
+<div class="container">
+    <div class="row">
+        <!--文章列表-->
+        <div class="col-md-9 main">
+            <div class="posts">
+                <div class="item">
+                    <h4>如果标签数量很多怎么办？</h4>
+                    <p>如果你有大量的设置为 inline 属性的标签全部放在一个较窄的容器元素内，在页面上展示这些标签就会出现问题，每个标签就会有自己的一个 inline-block 元素（就像图标一样）。解决的办法是为每个标签都设置为 display: inline-block; 属性。关于这个问题以及实例，请参考 #13219 。</p>
+                </div>
+                <div class="item">
+                    <h4>如果标签数量很多怎么办？</h4>
+                    <p>如果你有大量的设置为 inline 属性的标签全部放在一个较窄的容器元素内，在页面上展示这些标签就会出现问题，每个标签就会有自己的一个 inline-block 元素（就像图标一样）。解决的办法是为每个标签都设置为 display: inline-block; 属性。关于这个问题以及实例，请参考 #13219 。</p>
+                </div>
+            </div>
+        </div>
+
+        <!--侧边栏-->
+        <div class="col-md-3 sidebar hidden-xs">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+</div>
+
+
+<!--页尾-->
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-xs-12">
+                <ul class="footer">
+                    <li class="item">
+                        <a class="link">© 2019 Blog, Inc.</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">隐私政策</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">帮助</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
